@@ -4,7 +4,7 @@ const MoJwt = require('./miniorange-jwt-connector.node');
 const path = require('path');
 
 const app = express();
-const port = process.env.PORT || 13000;
+const port = process.env.PORT || 15000;
 // let jwtBuilder = new MoJwt.jwtBuilder;
 
 app.use(express.static(path.join(__dirname, './build')));
@@ -45,18 +45,13 @@ app.get("/jwtparser",(req, res) => {
    res.render('./login.html',{ express: JSON.stringify(payload, undefined, 4), user: payload.NameID });
 });
 
-app.get('/', (req,res) => {
-  res.send({express: "Hello from Node.JS. The server is working"});
-});
+// app.get('/', (req,res) => {
+//   res.send({express: "Hello from Node.JS. The server is working"});
+// });
 
 app.get('/hello', (req,res) => {
   res.send({express: "Hello from Express"});
 });
-// testres.render('./login.html',{ express: JSON.stringify(payload, undefined, 4), user: payload.NameID });
-
-// app.get('/', (req,res) => {
-//   res.send({express: "Hello from Express"});
-// });
 
 app.get('/', (req,res) => {
   res.sendFile(path.join(__dirname, './build/index.html'));

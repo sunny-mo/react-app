@@ -1,1 +1,5 @@
 node_modules
+./client/build
+yarn-error.log
+yarn.lock
+./client/node_modules
