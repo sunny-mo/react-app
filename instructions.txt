@@ -1,0 +1,23 @@
+
+Development:
+      1. npm start -  inside root folder to start node.js server.
+      2. npm start - inside client folder to start recat server.
+         OR
+      Use Yarn
+      Install nodemon globally and the server dependencies:
+           npm i nodemon -g
+           yarn
+
+Build:
+      1.npm run build
+
+
+Run App:
+      1. 
+
+
+
+
+run npm start dev in root and then in client folder.
+both server needs to run in two different terminal oner at 5000-nodejs and other at 3000-react.
+or else use yarn commands. for one combined server
