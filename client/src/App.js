@@ -53,7 +53,7 @@ render() {
 
           {/* <a href="https://sunny.miniorange.in/moas/broker/login/jwt/51896?client_id=YIQieyV4Vjyblo5Q&redirect_uri=http://localhost:5000/jwtparser"><button>Login via SSO</button></a> */}
 
-          <a href="https://minitech.xecurify.com/moas/broker/login/jwt/227493?client_id=ipXeoGMgjJNk05O9&redirect_uri=http://demo.miniorange.com/react-2/jwtparser"><button>Login via SSO</button></a>
+          <a href=" https://minitech.xecurify.com/moas/broker/login/jwt/227493?client_id=6F0YdrPM2ShqUXIw&redirect_uri=http://demo.miniorange.com/react/jwtparser   "><button>Login via SSO</button></a>
                
           <p>{this.state.response}</p>
           <p>{this.state.responseToPost}</p>
